@@ -19,3 +19,27 @@
 .error-text {
   color: red;
 }
+
+/* Traffic Light UI-CSS */
+.traffic-board-h {
+  padding: 32px 6px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.traffic-board-v {
+  padding: 6px 32px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.circle {
+  padding: 24px;
+  border-radius: 50%;
+  background-color: gray;
+}
