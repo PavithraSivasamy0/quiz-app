@@ -43,3 +43,35 @@
   border-radius: 50%;
   background-color: gray;
 }
+
+/* todo css */
+
+.todo-form {
+  display: flex;
+  gap: 8px;
+}
+
+.todo-box {
+  padding: 8px 48px;
+}
+
+.add-btn,
+.edit-btn,
+.delete-btn {
+  padding: 8px;
+}
+
+.list-toDo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
