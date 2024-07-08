@@ -6,15 +6,15 @@ import { Quiz } from "./components/Quiz";
 import { Score } from "./components/Score";
 import { Traffic } from "./components/TrafficLight/Traffic";
 import { ToDoWrapper } from "./components/TodoList/ToDoWrapper";
+import { DropDownList } from "./components/Dropdown/DropDownList";
 
 function App() {
-  const [page, setPage] = useState("Todo");
+  const [page, setPage] = useState("Dropdown");
   const [score, setScore] = useState(0);
 
   return (
     <div className="App">
       <pageContext.Provider value={{ page, setPage, score, setScore }}>
-        <h1>Welcome to the Quiz</h1>
         {page === "Traffic" && <Traffic />}
         {/* quiz app */}
         {page === "Main" && <Main />}
@@ -23,6 +23,9 @@ function App() {
 
         {/* todo list */}
         {page === "Todo" && <ToDoWrapper />}
+
+        {/* dropdown */}
+        {page === "Dropdown" && <DropDownList />}
       </pageContext.Provider>
     </div>
   );

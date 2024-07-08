@@ -32,5 +32,6 @@ export const ToDoForm = ({ addToDo }) => {
 4. if checkbox is ticked , mark the todo discuritption with one line through
 5. should have delete option
 6. should have edit option
-7. on Click of edit , description should provided in input field
+7. on Click of edit , description should provided in input field and edit button need to changed to update btn
+8. on click of update it should be back to list and update btn should change to edit btn again
 */

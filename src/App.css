@@ -75,3 +75,9 @@
 .completed {
   text-decoration: line-through;
 }
+
+/* Dropdown form */
+.input-form {
+  display: flex;
+  gap: 10px;
+}
